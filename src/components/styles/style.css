@@ -1,0 +1,76 @@
+.container{
+    padding: 2%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container .link{
+    text-decoration: none;
+    color: black;
+}
+.confirmcard{
+    text-align: center;
+    display: flexbox;
+    border-radius: 50px;    
+}
+.confirmcard .card-body{
+    background: rgba(240, 128, 128,0.1);
+    color: palevioletred;
+    font-size:xx-large; 
+    font-weight: bolder; 
+}
+
+.confirmcard .card-footer{
+    background: rgba(240, 128, 128,0.3);
+    color: palevioletred;
+    font-size: large; 
+    font-weight: bold;   
+}
+
+.recoverCard{
+    text-align: center;
+    display: flexbox;
+    border-radius: 50px;    
+}
+.recoverCard .card-body{
+    background:rgba(0, 230, 25,0.1);
+    color: #006622;
+    font-size:xx-large; 
+    font-weight: bolder; 
+}
+
+.recoverCard .card-footer{
+    background: rgba(0, 230, 25,0.3);
+    color: #006622;
+    font-size: large; 
+    font-weight: bold;   
+}
+
+
+.deathCard{
+    text-align: center;
+    display: flexbox;
+    border-radius: 50px;    
+}
+.deathCard .card-body{
+    background:rgba(36, 59, 128, 0.1);
+    color: #4d79ff;
+    font-size:xx-large; 
+    font-weight: bolder; 
+}
+
+.deathCard .card-footer{
+    background: rgba(0, 45, 179,0.3);
+    color: #4d79ff;
+    font-size: large; 
+    font-weight: bold;   
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin-top: 10%;
+        padding: 3%;
+    }
+    
+}
